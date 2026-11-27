@@ -5,8 +5,8 @@ export default function Landing(){
     return (
         <main className="mx-auto flex min-h-screen max-w-md flex-col px-6 py-8">
             <header className="flex items-center justify-between border-b border-crema/15 pb-4 text-xs font-bold uppercase tracking-widest text-oro">
-                <span>La gala de los nuestros</span>
-                <span>Ed. 2027</span>
+                <span>Te entiendo y te respeto awards</span>
+                <span>Gala 2027</span>
             </header>
 
             <section className="mt-12 flex-1">
@@ -23,9 +23,7 @@ export default function Landing(){
                 </p>
 
                 <p className="mt-8 text-lg leading-snug">
-                    Un grupo de amigos.
-                    <br />
-                    Demasiadas cosas que premiar.
+                    Premios del año 2027
                 </p>
             </section>
 
