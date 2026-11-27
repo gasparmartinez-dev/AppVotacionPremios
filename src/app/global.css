@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-fondo: #0f2a1f;
+  --color-tarjeta: #1d3d30;
+  --color-oro: #dfc98a;
+  --color-crema: #f5efe3;
+}
+
+@theme inline {
+  --font-titulo: var(--font-anton);
+  --font-texto: var(--font-dm-sans);
+}
+
+body {
+  @apply bg-fondo font-texto text-crema;
+}
