@@ -28,7 +28,7 @@ export default async function Login() {
           Elige tu nombre y entra a la gala.
         </p>
 
-        {error && <p className="mt-6 text-red-400">No se pudieron cargar los nombres.</p>}
+        {error && <p className="mt-6 text-red-400">{error.message}</p>}
 
         <form action={entrar} className="mt-12 space-y-6">
           <div>
